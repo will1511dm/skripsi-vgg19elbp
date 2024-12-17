@@ -1,71 +1,26 @@
 ###################
-What is CodeIgniter
+Pengenalan Batu Mineral Dengan Metode CNN Model VGG-19 dan Ekstraksi Ciri ELBP
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+"Sistem Identifikasi Mineral dengan VGG-19 dan Ekstraksi Ciri ELBP" adalah aplikasi berbasis kecerdasan buatan yang mengidentifikasi jenis mineral menggunakan model konvolusional VGG-19 dan metode Ekstraksi Local Binary Pattern (ELBP). VGG-19 berperan sebagai jaringan dalam mendeteksi pola visual utama, sementara ELBP menambah kemampuan identifikasi dengan menganalisis tekstur detail pada gambar mineral. Kombinasi ini meningkatkan akurasi dalam mengenali jenis mineral berdasarkan karakteristik visualnya, menjadikannya sistem yang efektif untuk analisis gambar mineral dalam aplikasi geologi dan industri terkait.
 
 *******************
-Release Information
+Aplikasi Pendukung
 *******************
+Aplikasi pendukung yang perlu di install adalah XAMPP Control Panel yang bisa diakses pada laporan bagian Link Github yang berisikan data-data lainnya.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Dikarenakan GitHub memiliki limit ukuran data 100MB, maka file .keras yang diperlukan akan ada di link Google Drive yang juga berisikan data-data lainnya yang bisa diakses pada laporan bagian Link Github.
 
 ************
-Installation
+Instalasi
 ************
-
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+1. Install XAMPP control panel
+2. Masukkan file VGG ke folder XAMPP dimana program XAMPP diinstall contohnya "C:/xampp/htdocs"
+3. Paste file vgg di subfolder htdocs
+4. Tambahkan environment 
+	 a. C:\Users\nama\AppData\Local\Programs\Python\Python311\
+	 b. C:\Users\nama\AppData\Local\Programs\Python\Python311\Scripts\
+5. Run XAMPP control panel
+6. Nyalakan Apache dan MySQL
+7. Buka browser dan ketik http://localhost/vgg/home
+8. Setelah itu program bisa digunakan sesuai dengan buku manual yang sudah ada pada Google Drive
