@@ -1,0 +1,10 @@
+Buka Pengaturan Sistem:
+
+Tekan Win + S dan cari Edit the system environment variables.
+Klik pada opsi tersebut.
+Edit Variabel Lingkungan:
+
+Di jendela System Properties, klik tombol Environment Variables.
+Di bagian System variables, cari variabel bernama Path dan klik Edit.
+
+C:\Program Files\Graphviz\bin
